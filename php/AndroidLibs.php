@@ -87,6 +87,9 @@ class AndroidLibs {
         foreach ($this->libs as $label => $lib) {
             $libs[] = $lib->getEntry();
         }
+        usort($libs, function ($o1, $o2) {
+            return $o1['id'] <=> $o2['id'];
+        });
         return $libs;
     }
 
