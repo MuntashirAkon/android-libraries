@@ -2,6 +2,7 @@
 
 require_once __DIR__ . '/anti_features.php';
 require_once __DIR__ . '/library_types.php';
+require_once __DIR__ . '/tags.php';
 
 const FILE = __DIR__ . '/../libs.json';
 const VALID_FIELDS = ['version', 'id', 'exodus_id', 'etip_id', 'label', 'description', 'signatures', 'website', 'type',
@@ -54,10 +55,19 @@ function lint($lib): void {
     if (!in_array($lib['type'], LIBRARY_TYPES)) {
         echo "\e[31mError:\e[0m Invalid type {$lib['type']} for ID {$lib['id']}\n";
     }
+    // Invalid anti-feature check
     if (isset($lib['anti_features'])) {
         foreach ($lib['anti_features'] as $anti_feature) {
             if (!in_array($anti_feature, ANTI_FEATURES)) {
                 echo "\e[31mError:\e[0m Invalid anti-feature $anti_feature for ID {$lib['id']}\n";
+            }
+        }
+    }
+    // Invalid tags check
+    if (isset($lib['tags'])) {
+        foreach ($lib['tags'] as $tag) {
+            if (!in_array($tag, TAGS)) {
+                echo "\e[31mError:\e[0m Invalid tag $tag for ID {$lib['id']}\n";
             }
         }
     }

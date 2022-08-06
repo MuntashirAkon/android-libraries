@@ -1,21 +1,6 @@
 [
     {
         "version": 1,
-        "id": "163-crash",
-        "label": "163 Crash",
-        "type": "Utility",
-        "signatures": {
-            "solib": "libbugrpt\\.so"
-        },
-        "last_update": 1659674016239,
-        "website": "http:\/\/crash.163.com\/index.do",
-        "description": "......",
-        "anti_features": [
-            "Tracking"
-        ]
-    },
-    {
-        "version": 1,
         "id": "360-security",
         "label": "360 Security",
         "type": "Mobile Analytics",
@@ -29550,6 +29535,25 @@
         "website": "https:\/\/github.com\/MegatronKing\/NetBare",
         "description": "Net packets capture & injection library.",
         "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "netease-cloud-capture",
+        "label": "NetEase Cloud Capture",
+        "type": "Utility",
+        "signatures": {
+            "solib": "libbugrpt\\.so"
+        },
+        "last_update": 1659674016239,
+        "website": "https:\/\/crash.163.com\/",
+        "description": "......",
+        "anti_features": [
+            "Tracking",
+            "NonFreeNet"
+        ],
+        "tags": [
+            "Logging Framework"
+        ]
     },
     {
         "version": 1,
