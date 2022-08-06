@@ -1021,7 +1021,7 @@
         "type": "Mobile Analytics",
         "signatures": {
             "code": "\/com\/adjust\/sdk\/|\/com\/adjust\/android\/sdk\/",
-            "network": "adj\\.st|adjust\\.com"
+            "network": "adj\\.st|adjust\\.com|go\\.link"
         },
         "last_update": 1659674016236,
         "website": "https:\/\/www.adjust.com\/",
@@ -1169,7 +1169,7 @@
         "type": "Advertisement",
         "signatures": {
             "code": "\/com\/admixer|\/net\/admixer\/sdk",
-            "network": "admixer\\.co\\.kr"
+            "network": "admixer\\.co\\.kr|admixer\\.net"
         },
         "last_update": 1659674016237,
         "website": "http:\/\/admixer.co.kr\/",
@@ -5142,10 +5142,10 @@
     {
         "version": 1,
         "id": "androidx-fragment",
-        "label": "Androidx Fragment",
+        "label": "AndroidX Fragment",
         "type": "Development Aid",
         "signatures": {
-            "code": "\/androidx\/fragment\/app"
+            "code": "\/androidx\/fragment"
         },
         "last_update": 1659674016239,
         "website": "https:\/\/developer.android.com\/jetpack\/androidx\/releases\/fragment",
@@ -40581,19 +40581,6 @@
     },
     {
         "version": 1,
-        "id": "swiperefreshlayout",
-        "label": "SwipeRefreshLayout",
-        "type": "UI Component",
-        "signatures": {
-            "code": "\/com\/orangegangsters\/github\/swipyrefreshlayout"
-        },
-        "last_update": 1659674016244,
-        "website": "https:\/\/github.com\/omadahealth\/SwipyRefreshLayout",
-        "description": "a SwipeRefreshLayout extension that allows to swipe in both direction.",
-        "license": "MIT"
-    },
-    {
-        "version": 1,
         "id": "swipereveallayout",
         "label": "SwipeRevealLayout",
         "type": "UI Component",
@@ -40637,12 +40624,14 @@
         "label": "SwipyRefreshLayout",
         "type": "UI Component",
         "signatures": {
-            "code": "\/com\/omadahealth\/github\/swipyrefreshlayout"
+            "code": "\/com\/orangegangsters\/github\/swipyrefreshlayout|\/com\/omadahealth\/github\/swipyrefreshlayout"
         },
         "last_update": 1659674016244,
+        "dead_since": 1492452000000,
         "website": "https:\/\/github.com\/omadahealth\/SwipyRefreshLayout",
-        "description": "A SwipeRefreshLayout extension that allows to swipe in both directions.",
-        "license": "MIT"
+        "description": "a SwipeRefreshLayout extension that allows to swipe in both direction.",
+        "license": "MIT",
+        "verified": true
     },
     {
         "version": 1,
