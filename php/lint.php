@@ -16,7 +16,7 @@ foreach ($libs as $lib) {
     lint($lib);
 }
 
-function lint($lib) {
+function lint($lib): void {
     // Required fields check
     if (!isset($lib['version'])) {
         echo "\e[31mError:\e[0m Missing required field: version for ID {$lib['id']}\n";

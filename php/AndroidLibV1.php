@@ -4,6 +4,33 @@
 require_once __DIR__ . '/library_types.php';
 
 class AndroidLibV1 {
+    public static function fromJson($json_lib) : AndroidLibV1 {
+        $lib = new AndroidLibV1();
+        $lib->id = $json_lib['id'];
+        $lib->exodus_id = $json_lib['exodus_id'] ?? null;
+        $lib->etip_id = $json_lib['etip_id'] ?? null;
+        $lib->label = $json_lib['label'];
+        $lib->type = $json_lib['type'];
+        $lib->tags = $json_lib['tags'] ?? null;
+        $lib->code_signatures = $json_lib['signatures']['code'] ?? null;
+        $lib->network_signatures = $json_lib['signatures']['network'] ?? null;
+        $lib->solib_signatures = $json_lib['signatures']['solib'] ?? null;
+        $lib->file_signatures = $json_lib['signatures']['file'] ?? null;
+        $lib->filename_signatures = $json_lib['signatures']['filename'] ?? null;
+        $lib->meta_signatures = $json_lib['signatures']['meta'] ?? null;
+        $lib->website = $json_lib['website'] ?? null;
+        $lib->description = $json_lib['description'] ?? null;
+        $lib->group_id = $json_lib['group_id'] ?? null;
+        $lib->artifact_id = $json_lib['artifact_id'] ?? null;
+        $lib->license = $json_lib['license'] ?? null;
+        $lib->anti_features = $json_lib['anti_features'] ?? null;
+        $lib->dead_since = $json_lib['dead_since'] ?? null;
+        $lib->verified = $json_lib['verified'] ?? null;
+        $lib->last_update = $json_lib['last_update'];
+        $lib->comment = $json_lib['comment'] ?? null;
+        return $lib;
+    }
+
     public string $id;
     public ?int $exodus_id = null;
     public ?string $etip_id = null;
@@ -44,13 +71,16 @@ class AndroidLibV1 {
         }
         // TODO: Check if Ant-Features matched
         // Make entry
+        if ($this->last_update == 0) {
+            $this->last_update = (int) date_create()->format('Uv');
+        }
         $entry = [
             'version' => 1,
             'id' => $this->id,
             'label' => $this->label,
             'type' => $this->type,
             'signatures' => array(),
-            'last_update' => $this->last_update != 0 ? $this->last_update : date_create()->format('Uv')
+            'last_update' => $this->last_update
         ];
         if ($this->code_signatures != null) $entry['signatures']['code'] = $this->code_signatures;
         if ($this->network_signatures != null) $entry['signatures']['network'] = $this->network_signatures;
