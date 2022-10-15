@@ -1,6 +1,6 @@
 # Android Libraries
 
-A list of Android libraries and/or trackers along with classification such as type, categories and ant-features.
+A list of Android libraries and/or trackers along with classification such as type, tags and anti-features.
 
 **Development Status:** Still in progress. Nothing is stable right now. DO NOT use this in your project. If you're
 interested in this project, you can watch the releases instead.
