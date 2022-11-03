@@ -59,7 +59,7 @@ class AndroidLibV1 {
      */
     public function getEntry() : array {
         if (!in_array($this->type, LIBRARY_TYPES)) {
-            throw new Exception("Invalid type: {$this->type}", 1);
+            throw new Exception("Invalid type: {$this->type} for id {$this->id}", 1);
         }
         if ($this->code_signatures == null
             && $this->network_signatures == null

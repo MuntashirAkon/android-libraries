@@ -1,6 +1,21 @@
 [
     {
         "version": 1,
+        "id": "163-crash",
+        "label": "163 Crash",
+        "type": "Utility",
+        "signatures": {
+            "solib": "libbugrpt\\.so"
+        },
+        "last_update": 1667465622563,
+        "website": "http:\/\/crash.163.com\/index.do",
+        "description": "......",
+        "anti_features": [
+            "Tracking"
+        ]
+    },
+    {
+        "version": 1,
         "id": "360-security",
         "label": "360 Security",
         "type": "Mobile Analytics",
@@ -121,6 +136,19 @@
         "website": "https:\/\/github.com\/jecelyin\/920-text-editor-v2",
         "description": "text editor with syntax highlighting and more.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "@react-native-community-checkbox",
+        "label": "@react-native-community\/checkbox",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/reactnativecommunity\/checkbox"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/react-native-checkbox\/react-native-checkbox",
+        "description": "React Native component for Checkbox.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -445,6 +473,19 @@
         "last_update": 1659674016241,
         "website": "https:\/\/github.com\/frogermcs\/ActivityFrameMetrics",
         "description": "detect janky frames with Android Nougat FrameMetrics and report via logcat.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "activityresultlauncher",
+        "label": "ActivityResultLauncher",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/dylanc\/activityresult\/launcher"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DylanCaiCoding\/ActivityResultLauncher",
+        "description": " this library helps you use the Activity Result API in as many scenarios as possible with easier to use code, it also supports encapsulating the function that projects use with startactivityForResult().",
         "license": "Apache-2.0"
     },
     {
@@ -3296,6 +3337,18 @@
     },
     {
         "version": 1,
+        "id": "android-internal-apis",
+        "label": "Android Internal APIs",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/android\/internal"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/android.googlesource.com\/platform\/frameworks\/base\/+\/HEAD\/core\/java\/com\/android\/internal\/",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "android-issue-reporter",
         "label": "android-issue-reporter",
         "type": "Utility",
@@ -4857,6 +4910,19 @@
     },
     {
         "version": 1,
+        "id": "androidide",
+        "label": "AndroidIDE",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/itsaky\/androidide"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/itsaky\/AndroidIDE",
+        "description": "an IDE for Android to develop full featured Android apps on Android smartphones.",
+        "license": "GPL-3.0-only"
+    },
+    {
+        "version": 1,
         "id": "androidktx",
         "label": "AndroidKTX",
         "type": "Utility",
@@ -5143,13 +5209,13 @@
         "version": 1,
         "id": "androidx-fragment",
         "label": "AndroidX Fragment",
-        "type": "Development Aid",
+        "type": "UI Component",
         "signatures": {
             "code": "\/androidx\/fragment"
         },
         "last_update": 1659674016239,
-        "website": "https:\/\/developer.android.com\/jetpack\/androidx\/releases\/fragment",
-        "description": "segments apps into multiple, independent screens that are hosted within an Activity."
+        "website": "https:\/\/android.googlesource.com\/platform\/frameworks\/support\/+\/refs\/heads\/androidx-main\/fragment\/",
+        "description": "AndroidX library to encapsulate part of the user interface or behavior into reusable components."
     },
     {
         "version": 1,
@@ -5951,6 +6017,19 @@
         "last_update": 1659674016240,
         "website": "https:\/\/github.com\/apollographql\/apollo-android",
         "description": "a GraphQL compliant client that generates Java models from standard GraphQL queries.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "apollo-kotlin",
+        "label": "Apollo Kotlin",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/apollographql\/apollo3"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/apollographql\/apollo-kotlin",
+        "description": "a strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
         "license": "MIT"
     },
     {
@@ -7754,6 +7833,19 @@
     },
     {
         "version": 1,
+        "id": "b4j",
+        "label": "B4J",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/anywheresoftware\/b4j"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/AnywhereSoftware\/B4J",
+        "description": "B4J core libraries.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "babator",
         "label": "Babator",
         "type": "Mobile Analytics",
@@ -8300,6 +8392,21 @@
             "NonFreeNet"
         ],
         "etip_id": "077a3536-792d-4db7-bcb6-d68b8b68bbb9"
+    },
+    {
+        "version": 1,
+        "id": "beaglebuddy-mp3-java-library",
+        "label": "Beaglebuddy mp3 java library",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/beaglebuddy"
+        },
+        "last_update": 1667465622563,
+        "website": "http:\/\/beaglebuddy.com\/",
+        "description": "provides a simplest, most intuitive interface for working with .mp3 files.",
+        "anti_features": [
+            "NonFreeDep"
+        ]
     },
     {
         "version": 1,
@@ -8877,6 +8984,19 @@
         "last_update": 1659674016246,
         "website": "https:\/\/github.com\/OmarAflak\/Bluetooth-Library",
         "description": "class that allows you to communicate simply using a bluetooth connection.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "blurhash",
+        "label": "Blurhash",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/mrousavy\/blurhash"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/mrousavy\/react-native-blurhash",
+        "description": "a library to show colorful blurry placeholders while your content loads.",
         "license": "MIT"
     },
     {
@@ -9732,6 +9852,18 @@
     },
     {
         "version": 1,
+        "id": "callbacks",
+        "label": "Callbacks",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/dylanc\/callbacks"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DylanCaiCoding\/Callbacks",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "calldorado",
         "label": "CallDorado",
         "type": "Advertisement",
@@ -10027,6 +10159,19 @@
         ],
         "exodus_id": 341,
         "etip_id": "aee749fc-0d1b-4394-b839-8ef84f40b908"
+    },
+    {
+        "version": 1,
+        "id": "carto-mobile-sdk",
+        "label": "Carto Mobile SDK",
+        "type": "Map",
+        "signatures": {
+            "code": "\/com\/carto"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/CartoDB\/mobile-sdk",
+        "description": "open, multi-platform framework for visualizing maps and providing location based services on mobile devices like smartphones or tablets.",
+        "license": "BSD-3-Clause"
     },
     {
         "version": 1,
@@ -10585,6 +10730,19 @@
         "website": "https:\/\/github.com\/michael-rapp\/ChromeLikeTabSwitcher",
         "description": "library which provides a tab switcher similar to the one, which is used in Google Chrome on Android.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "chromemenu",
+        "label": "ChromeMenu",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/xyz\/aprildown\/chromemenu"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DeweyReed\/ChromeMenu",
+        "description": "an Android menu library from Chromium-Android. Touch, move and select in one gesture.",
+        "license": "BSD-3-Clause"
     },
     {
         "version": 1,
@@ -11196,6 +11354,19 @@
     },
     {
         "version": 1,
+        "id": "collect",
+        "label": "Collect",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/google\/android\/collect"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/android.googlesource.com\/platform\/frameworks\/base\/+\/HEAD\/core\/java\/com\/google\/android\/collect",
+        "description": "helper classes for collections (lists, maps, sets).",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "colocator",
         "label": "Colocator",
         "type": "Mobile Analytics",
@@ -11515,6 +11686,32 @@
     },
     {
         "version": 1,
+        "id": "compose-colorful-customizable-sliders",
+        "label": "Compose Colorful Customizable Sliders",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/smarttoolfactory\/slider"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/SmartToolFactory\/Compose-Colorful-Sliders",
+        "description": "colorful sliders that can have Solid or Gradient colors for thumb or track which can have thumb and track with varying sizes, borders with solid or gradient colors.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "compose-destinations",
+        "label": "Compose Destinations",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/ramcosta\/composedestinations"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/raamcosta\/compose-destinations",
+        "description": "a KSP library that processes annotations and generates code that uses Official Jetpack Compose Navigation under the hood.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "compose-material-dialogs",
         "label": "Compose Material Dialogs",
         "type": "UI Component",
@@ -11524,6 +11721,19 @@
         "last_update": 1659674016245,
         "website": "https:\/\/github.com\/vanpra\/compose-material-dialogs",
         "description": "a Material Dialog Builder for Jetpack Compose.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "compose-tooltip",
+        "label": "Compose Tooltip",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/dev\/patrickgold\/compose\/tooltip"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/patrickgold\/compose-tooltip",
+        "description": "a small library which adds support for tooltips in Jetpack Compose.",
         "license": "Apache-2.0"
     },
     {
@@ -12270,6 +12480,19 @@
     },
     {
         "version": 1,
+        "id": "cordova-screen-orientation-plugin",
+        "label": "Cordova Screen Orientation Plugin",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/cordova\/plugins\/screenorientation"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/apache\/cordova-plugin-screen-orientation",
+        "description": "Cordova plugin to set\/lock the screen orientation in a common way for iOS, Android, and windows-uwp.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "cordova-sms-plugin",
         "label": "Cordova SMS Plugin",
         "type": "Utility",
@@ -12398,6 +12621,19 @@
     },
     {
         "version": 1,
+        "id": "countryboundaries",
+        "label": "countryboundaries",
+        "type": "Map",
+        "signatures": {
+            "code": "\/de\/westnordost\/countryboundaries"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/westnordost\/countryboundaries",
+        "description": "Java library to enable fast offline reverse country geocoding.",
+        "license": "LGPL-3.0-only"
+    },
+    {
+        "version": 1,
         "id": "cpdetector",
         "label": "cpdetector",
         "type": "Utility",
@@ -12484,6 +12720,19 @@
     },
     {
         "version": 1,
+        "id": "crashx",
+        "label": "CrashX",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/developer\/crashx"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/TutorialsAndroid\/crashx",
+        "description": "allows launching a crash activity when the app crashes, instead of showing the hated 'Unfortunately, X has stopped' dialog.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "crashy",
         "label": "Crashy",
         "type": "Utility",
@@ -12493,6 +12742,19 @@
         "last_update": 1659674016241,
         "website": "https:\/\/github.com\/CraZyLegenD\/Crashy",
         "description": "a iny library to save crash reports to the device's storage with lots of details of what went wrong.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "crazylegend-recyclerview",
+        "label": "Recyclerview",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/crazylegend\/recyclerview"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/CraZyLegenD\/Set-Of-Useful-Kotlin-Extensions-and-Helpers\/tree\/master\/recyclerview",
+        "description": "a RecyclerView for Kotlin.",
         "license": "Apache-2.0"
     },
     {
@@ -12584,6 +12846,19 @@
         "last_update": 1659674016239,
         "website": "https:\/\/developer.android.com\/guide\/topics\/connectivity\/cronet\/",
         "description": "Cronet is the Chromium network stack made available to Android apps as a library."
+    },
+    {
+        "version": 1,
+        "id": "cronet-transport-for-okhttp-and-retrofit",
+        "label": "Cronet Transport for OkHttp and Retrofit",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/google\/net\/cronet\/okhttptransport"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/google\/cronet-transport-for-okhttp",
+        "description": "allows OkHttp and Retrofit users to use Cronet as their transport layer, benefiting from features like QUIC\/HTTP3 support or connection migration.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -14135,6 +14410,19 @@
     },
     {
         "version": 1,
+        "id": "dynamic_color",
+        "label": "dynamic_color",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/io\/material\/plugins\/dynamic_color"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/material-foundation\/material-dynamic-color-flutter",
+        "description": "a Flutter package to create Material color schemes based on a platform's implementation of dynamic color.",
+        "license": "BSD-3-Clause"
+    },
+    {
+        "version": 1,
         "id": "dynamicanimation",
         "label": "Dynamicanimation",
         "type": "UI Component",
@@ -14297,6 +14585,19 @@
         "last_update": 1659674016245,
         "website": "https:\/\/github.com\/VMadalin\/easypermissions-ktx",
         "description": "Kotlin version of the popular google\/easypermissions wrapper library to simplify basic system permissions logic on Android M or higher.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "easyprefs",
+        "label": "EasyPrefs",
+        "type": "Development Aid",
+        "signatures": {
+            "code": "\/com\/pixplicity\/easyprefs\/library"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/Pixplicity\/EasyPrefs",
+        "description": "a small library containing a wrapper\/helper for the Shared Preferences of Android.",
         "license": "Apache-2.0"
     },
     {
@@ -14690,6 +14991,19 @@
         "last_update": 1659674016246,
         "website": "https:\/\/github.com\/ankushsachdeva\/emojicon",
         "description": "library to show emojicon dialog box over soft keyboard.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "emphasistextview",
+        "label": "EmphasisTextView",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/athkalia\/emphasis"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/athkalia\/EmphasisTextView",
+        "description": "an android textview that supports highlighting parts or all of the text contained in it.",
         "license": "Apache-2.0"
     },
     {
@@ -15574,6 +15888,32 @@
     },
     {
         "version": 1,
+        "id": "ezxhelper",
+        "label": "EzXHelper",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/github\/kyuubiran\/ezxhelper"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/KyuubiRan\/EzXHelper",
+        "description": "a library that makes Xposed module development easier.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "f-droid-privileged-extension",
+        "label": "F-Droid Privileged Extension",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/org\/fdroid\/fdroid\/privileged"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/gitlab.com\/fdroid\/privileged-extension\/",
+        "description": "allows to install and delete apps without needing „Unknown Sources“ to be enabled (e.g. just like Google Play does).",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "f.o.x",
         "label": "F.O.X",
         "type": "Advertisement",
@@ -16184,13 +16524,14 @@
         "version": 1,
         "id": "filament",
         "label": "Filament",
-        "type": "Development Aid",
+        "type": "Utility",
         "signatures": {
+            "code": "\/com\/google\/android\/filament",
             "solib": "libfilament(-utils)?-jni\\.so|libgltfio-jni\\.so"
         },
         "last_update": 1659674016239,
         "website": "https:\/\/github.com\/google\/filament",
-        "description": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2 "
+        "description": "a real-time physically based rendering engine."
     },
     {
         "version": 1,
@@ -16561,6 +16902,19 @@
     },
     {
         "version": 1,
+        "id": "flexilogger",
+        "label": "FlexiLogger",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/duck\/flexilogger"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/projectdelta6\/FlexiLogger",
+        "description": "logging helper to provide flexible Log methods.",
+        "license": "GPL-3.0-only"
+    },
+    {
+        "version": 1,
         "id": "flexinput",
         "label": "FlexInput",
         "type": "Utility",
@@ -16737,6 +17091,19 @@
         "last_update": 1659674016245,
         "website": "https:\/\/github.com\/tfcporciuncula\/flow-preferences",
         "description": "Kotlin Flow version of rx-preferences. It follows pretty much the same API and should feel familiar to anyone with experience there. But instead of RxJava, we have Coroutines -- mainly Flows.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "flowbinding",
+        "label": "FlowBinding",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/reactivecircus\/flowbinding"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ReactiveCircus\/FlowBinding",
+        "description": "Kotlin Coroutines Flow binding APIs for Android's platform and unbundled UI widgets, inspired by RxBinding.",
         "license": "Apache-2.0"
     },
     {
@@ -17141,6 +17508,32 @@
     },
     {
         "version": 1,
+        "id": "flutter_native_splash",
+        "label": "flutter_native_splash",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/net\/jonhanson\/flutter_native_splash"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/jonbhanson\/flutter_native_splash",
+        "description": "automatically generates native code for adding splash screens in Android and iOS. Customize with specific platform, background color and splash image.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "flutter_native_timezone",
+        "label": "flutter_native_timezone",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/whelksoft\/flutter_native_timezone"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/pinkfish\/flutter_native_timezone",
+        "description": "a flutter plugin for getting the local timezone of the os.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "flutter_ringtone_player",
         "label": "flutter_ringtone_player",
         "type": "Utility",
@@ -17334,6 +17727,19 @@
     },
     {
         "version": 1,
+        "id": "foxcompat",
+        "label": "FoxCompat",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/fox2code\/foxcompat"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/Fox2Code\/FoxCompat",
+        "description": "Fox2Code core libs",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "fragmentation",
         "label": "Fragmentation",
         "type": "Utility",
@@ -17484,14 +17890,14 @@
         "version": 1,
         "id": "fresco",
         "label": "Fresco",
-        "type": "Utility",
+        "type": "Development Aid",
         "signatures": {
             "code": "\/com\/facebook\/animated\/gif|\/com\/facebook\/binaryresource|\/com\/facebook\/callercontext|\/com\/facebook\/cache|\/com\/facebook\/common\/activitylistener|\/com\/facebook\/common\/disk|\/com\/facebook\/common\/executors|\/com\/facebook\/common\/file|\/com\/facebook\/common\/internal|\/com\/facebook\/common\/lifecycle|\/com\/facebook\/common\/logging|\/com\/facebook\/common\/media|\/com\/facebook\/common\/memory|\/com\/facebook\/common\/references|\/com\/facebook\/common\/statfs|\/com\/facebook\/common\/streams|\/com\/facebook\/common\/time|\/com\/facebook\/common\/util|\/com\/facebook\/common\/webp|\/com\/facebook\/datasource|\/com\/facebook\/drawable|\/com\/facebook\/drawee|\/com\/facebook\/fresco|\/com\/facebook\/imageformat|\/com\/facebook\/imagepipeformat|\/com\/facebook\/imagepipeline|\/com\/facebook\/imagepipelinebase|\/com\/facebook\/imageutils|\/com\/facebook\/nativefilters|\/com\/facebook\/nativeimagetranscoder|\/com\/facebook\/widget\/text\/span",
             "solib": "libbitmaps\\.so|libgifimage\\.so|libimagepipeline\\.so|libmemchunk\\.so|libnative-(filters|imagetranscoder|file-access)\\.so|libstatic-webp\\.so|libwebp(image)?\\.so"
         },
         "last_update": 1659674016239,
-        "website": "https:\/\/github.com\/facebook\/fresco",
-        "description": "library for managing images and the memory they use."
+        "website": "https:\/\/github.com\/facebook\/fresco\/",
+        "description": "Fresco is an Android library for managing images and the memory they use."
     },
     {
         "version": 1,
@@ -19114,6 +19520,22 @@
     },
     {
         "version": 1,
+        "id": "google-play-services",
+        "label": "Google Play Services",
+        "type": "Mobile Analytics",
+        "signatures": {
+            "network": "play\\.google\\.com"
+        },
+        "last_update": 1667465622562,
+        "website": "https:\/\/play.google.com\/store\/apps\/details?id=com.google.android.gms",
+        "anti_features": [
+            "Tracking",
+            "NonFreeNet"
+        ],
+        "etip_id": "66c5f916-c185-46bb-9237-249fd8788079"
+    },
+    {
+        "version": 1,
         "id": "google-play-store",
         "label": "Google Play Store",
         "type": "App Market",
@@ -19127,6 +19549,19 @@
         "anti_features": [
             "NonFreeDep"
         ]
+    },
+    {
+        "version": 1,
+        "id": "google-private-compute-services",
+        "label": "Google Private Compute Services",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/google\/android\/as\/oss"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/google\/private-compute-services",
+        "description": "a suite of services that provide a privacy-preserving bridge between Private Compute Core and the cloud.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -19583,6 +20018,19 @@
     },
     {
         "version": 1,
+        "id": "handy-uri-templates",
+        "label": "Handy URI Templates",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/damnhandy\/uri\/template"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/damnhandy\/Handy-URI-Templates",
+        "description": "a Java URI Template processor implementing RFC6570.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "handygridview",
         "label": "HandyGridView",
         "type": "UI Component",
@@ -19956,6 +20404,19 @@
         "anti_features": [
             "NonFreeDep"
         ]
+    },
+    {
+        "version": 1,
+        "id": "hmspickerview",
+        "label": "HmsPickerView",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/xyz\/aprildown\/hmspickerview"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DeweyReed\/HmsPickerView",
+        "description": "a little Android view to pick hours, minutes and seconds.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -21324,6 +21785,19 @@
     },
     {
         "version": 1,
+        "id": "internet-time-utility",
+        "label": "Internet Time Utility",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/ethlo\/time"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ethlo\/itu",
+        "description": "an extremely fast parser and formatter of standardized date and date-times supporting RFC 3339 (ISO 8601 profile).",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "interpolator",
         "label": "Interpolator",
         "type": "UI Component",
@@ -22002,6 +22476,32 @@
     },
     {
         "version": 1,
+        "id": "java-libkiwix",
+        "label": "java-libkiwix",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/org\/kiwix\/kiwixlib"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/kiwix\/java-libkiwix",
+        "description": "Libkiwix binding for Java\/Kotlin.",
+        "license": "GPL-3.0-only"
+    },
+    {
+        "version": 1,
+        "id": "java-marine-api",
+        "label": "Java Marine API",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/net\/sf\/marineapi"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ktuukkan\/marine-api",
+        "description": "an NMEA 0183 parser library for decoding and encoding the data provided by various electronic marine devices such as GPS, echo sounder and weather instruments.",
+        "license": "LGLP-3.0-or-later"
+    },
+    {
+        "version": 1,
         "id": "java-mp4-parser",
         "label": "Java MP4 Parser",
         "type": "Utility",
@@ -22230,6 +22730,19 @@
         "website": "https:\/\/github.com\/JavaMoney\/jsr354-api",
         "description": "Money and Currency API.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "javaneoutil",
+        "label": "JavaNeoUtil",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/ru\/fazziclay\/javaneoutil"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/FazziCLAY\/JavaNeoUtil",
+        "description": "Java Utility collection.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -22566,6 +23079,19 @@
     },
     {
         "version": 1,
+        "id": "jcodings",
+        "label": "jcodings",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/org\/jcodings"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/jruby\/jcodings",
+        "description": "Java-based codings helper classes for Joni and JRuby.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "jcommander",
         "label": "JCommander",
         "type": "Utility",
@@ -22693,6 +23219,19 @@
         "website": "https:\/\/github.com\/godaddy\/compose-color-picker",
         "description": "a component that provides two different HSV color pickers, written in Jetpack Compose.",
         "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "jetpack-compose-gestures",
+        "label": "Jetpack Compose Gestures",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/smarttoolfactory\/gesture"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/SmartToolFactory\/Compose-Extended-Gestures",
+        "description": "Jetpack Compose gesture library that expands avaiable gesture functions with onTouchEvent counterpart of event, transform and touch delegate gestures.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -22842,6 +23381,19 @@
         "website": "https:\/\/github.com\/opencollab\/jlatexmath",
         "description": "a Java API to render LaTeX.",
         "license": "GPL-2.0-or-later"
+    },
+    {
+        "version": 1,
+        "id": "jlatexmath-android",
+        "label": "JLatexMath Android",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/ru\/noties\/jlatexmath"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/noties\/jlatexmath-android",
+        "description": "Java API to render LaTeX.",
+        "license": "GPL-2.0-only"
     },
     {
         "version": 1,
@@ -23037,6 +23589,19 @@
         "website": "https:\/\/github.com\/dlew\/joda-time-android",
         "description": "Joda-Time (Java date and time classes) library with Android specialization",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "joni",
+        "label": "joni",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/org\/joni"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/jruby\/joni",
+        "description": "Java port of Oniguruma regexp library.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -23742,6 +24307,19 @@
     },
     {
         "version": 1,
+        "id": "kaml",
+        "label": "kaml",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/charleskorn\/kaml"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/charleskorn\/kaml",
+        "description": "adds YAML support to kotlinx.serialization.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "karte",
         "label": "KARTE",
         "type": "Mobile Analytics",
@@ -23993,6 +24571,22 @@
         ],
         "exodus_id": 235,
         "etip_id": "8a14d844-1866-4609-bb1b-41448530d2dc"
+    },
+    {
+        "version": 1,
+        "id": "kidsplace_sdk",
+        "label": "kidsplace_sdk",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/kiddoware\/kidsplace\/sdk"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/kiddoware.com\/kids-place-parental-control-for-android-devices\/",
+        "description": "parental control",
+        "license": "Proprietary",
+        "anti_features": [
+            "NonFreeDep"
+        ]
     },
     {
         "version": 1,
@@ -24292,6 +24886,32 @@
         "website": "https:\/\/github.com\/JetBrains\/kotlin\/tree\/cdbfa7fbbc6f31dbcb6264f456bfedee1a85c40b\/plugins\/parcelize",
         "description": "Kotlin plugin that provides a Parcelable implementation generator.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "kotlin-programming-language",
+        "label": "Kotlin Programming Language",
+        "type": "Development Framework",
+        "signatures": {
+            "code": "\/org\/jetbrains\/kotlin"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/JetBrains\/kotlin",
+        "description": "an open-source, statically typed programming language with multi-platform support.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "kotlin-result",
+        "label": "kotlin-result",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/github\/michaelbull\/result"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/michaelbull\/kotlin-result",
+        "description": "a multiplatform Result monad for modelling success or failure operations.",
+        "license": "ISC"
     },
     {
         "version": 1,
@@ -24726,6 +25346,19 @@
         "website": "https:\/\/github.com\/nitrico\/LastAdapter",
         "description": "library to make writing Adapters for e.g. RecyclerView or ViewHolder obsolete.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "launch-navigator-cordova-phonegap-plugin",
+        "label": "Launch Navigator Cordova\/Phonegap Plugin",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/uk\/co\/workingedge\/phonegap\/plugin"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/dpa99c\/phonegap-launch-navigator",
+        "description": "Phonegap\/Cordova plugin which launches native route navigation apps for Android, iOS and Windows.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -25694,6 +26327,19 @@
     },
     {
         "version": 1,
+        "id": "live-event",
+        "label": "Live Event",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/hadilq\/liveevent"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/hadilq\/LiveEvent",
+        "description": "holds a class to handle single live events in Android MVVM architectural pattern.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "live-sdk-for-android-(legacy)",
         "label": "Live SDK for Android (Legacy)",
         "type": "Utility",
@@ -26131,6 +26777,19 @@
         "last_update": 1659674016242,
         "website": "https:\/\/github.com\/pedrovgs\/Lynx",
         "description": "show a custom view with all the information Android logcat is printing, offer filtering and more.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "lz4-java",
+        "label": "LZ4 Java",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/net\/jpountz\/lz4|\/net\/jpountz\/util|\/net\/jpountz\/xxhash"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/lz4\/lz4-java",
+        "description": "LZ4 compression for Java.",
         "license": "Apache-2.0"
     },
     {
@@ -26640,6 +27299,19 @@
     },
     {
         "version": 1,
+        "id": "material-checklist",
+        "label": "Material Checklist",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/dvdb\/materialchecklist"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DamianvdB\/MaterialChecklist",
+        "description": "flexible, easy to use checklist library written in Kotlin.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "material-chip-view",
         "label": "Material Chip View",
         "type": "UI Component",
@@ -26792,6 +27464,19 @@
         "last_update": 1659674016240,
         "website": "https:\/\/github.com\/balysv\/material-menu",
         "description": "animations for Android L drawer, back, dismiss and check icons.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "material-motion-for-jetpack-compose",
+        "label": "Material Motion for Jetpack Compose",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/soup\/compose\/material\/motion"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/fornewid\/material-motion-compose",
+        "description": "Jetpack Compose library for implementing motion system in Material Components for Android.",
         "license": "Apache-2.0"
     },
     {
@@ -27208,6 +27893,19 @@
         "website": "https:\/\/github.com\/florent37\/MaterialViewPager",
         "description": "a Material Design ViewPager easy to use library.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "materialyoufileexplorer",
+        "label": "MaterialYouFileExplorer",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/xayah\/materialyoufileexplorer"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/XayahSuSuSu\/Android-MaterialYouFileExplorer",
+        "description": "a file explorer(picker) with the style of Material You. Use this library to pick files\/directories quickly.",
+        "license": "GPL-3.0-only"
     },
     {
         "version": 1,
@@ -28741,6 +29439,19 @@
     },
     {
         "version": 1,
+        "id": "moxplatform",
+        "label": "moxplatform",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/me\/polynom\/moxplatform_android"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/codeberg.org\/moxxy\/moxplatform",
+        "description": "platform-specific code for Moxxy. Not intended for use outside of Moxxy.",
+        "license": "GPL-3.0-only"
+    },
+    {
+        "version": 1,
         "id": "moxy",
         "label": "Moxy",
         "type": "UI Component",
@@ -29480,6 +30191,19 @@
     },
     {
         "version": 1,
+        "id": "navigation-bar",
+        "label": "Navigation Bar",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/br\/com\/tombus\/capacitor\/plugin\/navigationbar"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/hugotomazi\/navigation-bar",
+        "description": "Capacitor plugin for Navigation Bar manipulation.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "ndef-tools-for-android",
         "label": "NDEF Tools for Android",
         "type": "Utility",
@@ -29522,6 +30246,19 @@
         ],
         "exodus_id": 222,
         "etip_id": "eb261bf9-c88e-46c1-a639-45371160f62e"
+    },
+    {
+        "version": 1,
+        "id": "neosocket",
+        "label": "NeoSocket",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/fazziclay\/neosocket"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/FazziCLAY\/NeoSocket",
+        "description": "socket server\/client uses packet structure.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -29621,6 +30358,19 @@
         "last_update": 1659674016246,
         "website": "https:\/\/github.com\/netty\/netty",
         "description": "an event-driven asynchronous network application framework.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "netty-reactive-streams",
+        "label": "Netty Reactive Streams",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/typesafe\/netty"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/playframework\/netty-reactive-streams",
+        "description": "provides a reactive streams implementation for Netty.",
         "license": "Apache-2.0"
     },
     {
@@ -30337,13 +31087,14 @@
         "version": 1,
         "id": "olm",
         "label": "Olm",
-        "type": "Development Aid",
+        "type": "Utility",
         "signatures": {
+            "code": "\/org\/matrix\/olm",
             "solib": "libolm\\.so"
         },
         "last_update": 1659674016239,
-        "website": "https:\/\/gitlab.matrix.org\/matrix-org\/olm",
-        "description": "Implementation of the olm and megolm cryptographic ratchets"
+        "website": "https:\/\/github.com\/Evans-Cai\/matrix-org_olm",
+        "description": "an implementation of the Double Ratchet cryptographic ratchet described by <a href='WhisperSystems' target='_blank' rel='nofollow'>https:\/\/whispersystems.org\/docs\/specifications\/doubleratchet\/<\/a>."
     },
     {
         "version": 1,
@@ -30376,6 +31127,19 @@
         "website": "https:\/\/github.com\/jonfinerty\/Once",
         "description": "small library to manage one-off operations.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "oneadapter",
+        "label": "OneAdapter",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/idanatz\/oneadapter"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ironSource\/OneAdapter",
+        "description": "simplify and enhance the use of the RecyclerView's Adapter while preventing common mistakes.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -30654,6 +31418,19 @@
         "website": "https:\/\/github.com\/andiwand\/OpenDocument.java",
         "description": "handles OpenDocument files and translates them to html.",
         "license": "GPL-3.0-only"
+    },
+    {
+        "version": 1,
+        "id": "openinghoursparser",
+        "label": "OpeningHoursParser",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/ch\/poole\/openinghoursparser"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/simonpoole\/OpeningHoursParser",
+        "description": "a very simplistic parser for string values according to the <a href='http:\/\/wiki.openstreetmap.org\/wiki\/Key:opening_hours\/specification' target='_blank'>OSM opening hours specification<\/a>.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -31055,6 +31832,32 @@
         "website": "https:\/\/mvnrepository.com\/artifact\/org.eclipse.platform\/org.eclipse.osgi",
         "description": "enable the development, deployment and management of embedded, server-side, and cloud-native applications using software modularity to vastly improve the evolution.",
         "license": "EPL-2.0"
+    },
+    {
+        "version": 1,
+        "id": "osmapi",
+        "label": "osmapi",
+        "type": "Map",
+        "signatures": {
+            "code": "\/de\/westnordost\/osmapi"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/westnordost\/osmapi",
+        "description": "Java client for the OSM API 0.6",
+        "license": "LGPL-3.0-only"
+    },
+    {
+        "version": 1,
+        "id": "osmfeatures",
+        "label": "osmfeatures",
+        "type": "Map",
+        "signatures": {
+            "code": "\/de\/westnordost\/osmfeatures"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/westnordost\/osmfeatures",
+        "description": "a dictionary of OSM map features, accessible by terms and by tags, for Java and Android.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -31881,6 +32684,19 @@
         "last_update": 1659674016248,
         "website": "https:\/\/github.com\/hotchemi\/PermissionsDispatcher",
         "description": "simple annotation-based API to handle runtime permissions.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "permissionx",
+        "label": "PermissionX",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/permissionx\/guolindev"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/guolindev\/PermissionX",
+        "description": "an extension Android library that makes Android runtime permission request extremely easy.",
         "license": "Apache-2.0"
     },
     {
@@ -33800,16 +34616,42 @@
     },
     {
         "version": 1,
+        "id": "re.pack",
+        "label": "re.pack",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/callstack\/repack"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/callstack\/repack",
+        "description": "a Webpack-based toolkit to build your React Native application with full support of Webpack ecosystem.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "react-native",
         "label": "React Native",
-        "type": "Development Framework",
+        "type": "Development Aid",
         "signatures": {
             "code": "\/com\/facebook\/jni|\/com\/facebook\/quicklog|\/com\/facebook\/proguard|\/com\/facebook\/perftest|\/com\/facebook\/react|\/com\/facebook\/systrace|\/com\/facebook\/yoga",
             "solib": "libJavaScriptCore\\.so|libfolly_(futures|json)?\\.so|libglog_init\\.so|libjsc(executor)?\\.so|libjsinspector\\.so|libjsijniprofiler\\.so|libreactnative(blob|jni|jnifb|utilsjni)?\\.so|libfb(jni)?\\.so|libreact_(codegen_reactandroidspec|codegen_rncore|nativemodule_core|debug|utils)?\\.so|libreactperfloggerjni\\.so|libreact_render_.*\\.so|libreactconfig\\.so|librrc_(image|modal|progressbar|root|scrollview|slider|switch|text|textinput|unimplementedview|view)?\\.so"
         },
         "last_update": 1659674016239,
-        "website": "https:\/\/github.com\/facebook\/react-native",
-        "description": "framework for building native apps with React."
+        "website": "https:\/\/reactnative.dev\/",
+        "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface."
+    },
+    {
+        "version": 1,
+        "id": "react-native-actions-shortcuts",
+        "label": "react-native-actions-shortcuts",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/reactnativeactionsshortcuts"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/mouselangelo\/react-native-actions-shortcuts",
+        "description": "iOS Home screen Quick Actions & Android App Shortcuts for react-native.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -33848,6 +34690,19 @@
         "last_update": 1659674016244,
         "website": "https:\/\/github.com\/react-native-community\/react-native-async-storage",
         "description": "an asynchronous, unencrypted, persistent, key-value storage system for React Native.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-background-actions",
+        "label": "react-native-background-actions",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/asterinet\/react\/bgactions"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/Rapsssito\/react-native-background-actions",
+        "description": "service library for running background tasks forever.",
         "license": "MIT"
     },
     {
@@ -33913,6 +34768,19 @@
         "last_update": 1659674016241,
         "website": "https:\/\/github.com\/ekreutz\/react-native-barcode-scanner-google",
         "description": "Barcode scanner for react native, which implements barcode detection from Google's Vision API.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-bars",
+        "label": "react-native-bars",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/zoontek\/rnbars"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/zoontek\/react-native-bars",
+        "description": "control your app status and navigation bars.",
         "license": "MIT"
     },
     {
@@ -34128,6 +34996,32 @@
     },
     {
         "version": 1,
+        "id": "react-native-encrypted-storage",
+        "label": "React Native Encrypted Storage",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/emeraldsanto\/encryptedstorage"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/emeraldsanto\/react-native-encrypted-storage",
+        "description": "React Native wrapper around SharedPreferences and Keychain to provide a secure alternative to <a href='https:\/\/github.com\/react-native-community\/async-storage' target='_blank' rel='nofollow'>Async Storage<\/a>.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-eventsource",
+        "label": "react-native EventSource",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/github\/jonnybgod\/RNEventSource"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/JonnyBGod\/react-native-eventsource",
+        "description": "a react-native component for EventSource: Server-Sent Events.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "react-native-exception-handler",
         "label": "react-native-exception-handler",
         "type": "Utility",
@@ -34137,6 +35031,19 @@
         "last_update": 1659674016244,
         "website": "https:\/\/github.com\/master-atul\/react-native-exception-handler",
         "description": "a module that lets you to register a global error handler that can capture fatal\/non fatal uncaught exceptions.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-exit-app",
+        "label": "react-native-exit-app",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/github\/wumke\/RNExitApp"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/wumke\/react-native-exit-app",
+        "description": "Exit, close, kill, shutdown app completely for React Native.",
         "license": "MIT"
     },
     {
@@ -34182,6 +35089,19 @@
         "last_update": 1659674016244,
         "website": "https:\/\/github.com\/wkh237\/react-native-fetch-blob-package",
         "description": "library to make file acess and data transfer easier, efficient for React Native developers.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-file-access",
+        "label": "react-native-file-access",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/alpha0010\/fs"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/alpha0010\/react-native-file-access",
+        "description": "filesystem access for React Native. Supports saving network requests directly to the filesystem. Supports Android scoped storage, a requirement when targeting API 30 or higher.",
         "license": "MIT"
     },
     {
@@ -34280,6 +35200,19 @@
     },
     {
         "version": 1,
+        "id": "react-native-html-to-pdf-lite",
+        "label": "react-native-html-to-pdf-lite",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/onibenjo\/htmltopdf"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/Onibenjo\/react-native-html-to-pdf",
+        "description": "convert html strings to PDF documents using React Native.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "react-native-i18n",
         "label": "react-native-i18n",
         "type": "Utility",
@@ -34289,6 +35222,19 @@
         "last_update": 1659674016240,
         "website": "https:\/\/github.com\/AlexanderZaytsev\/react-native-i18n",
         "description": "integrates I18n.js with React Native, using the user preferred locale as default.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-iap",
+        "label": "react-native-iap",
+        "type": "Payment",
+        "signatures": {
+            "code": "\/com\/dooboolab\/RNIap"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/dooboolab\/react-native-iap",
+        "description": "react-native native module for In App Purchase.",
         "license": "MIT"
     },
     {
@@ -34458,6 +35404,19 @@
         "last_update": 1659674016248,
         "website": "https:\/\/github.com\/react-native-community\/react-native-masked-view",
         "description": "put almost anything behind the mask.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-mmkv-storage",
+        "label": "react-native-mmkv-storage",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/ammarahmed\/mmkv"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ammarahm-ed\/react-native-mmkv-storage",
+        "description": "an ultra fast (0.0002s read\/write), small & encrypted mobile key-value storage framework for React Native.",
         "license": "MIT"
     },
     {
@@ -34668,6 +35627,19 @@
         "last_update": 1659674016245,
         "website": "https:\/\/github.com\/th3rdwave\/react-native-safe-area-context",
         "description": "library to handle safe area insets.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "react-native-scoped-storage",
+        "label": "react-native-scoped-storage",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/ammarahmed\/scopedstorage"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ammarahm-ed\/react-native-scoped-storage",
+        "description": "an API for react-native to use scoped storage.",
         "license": "MIT"
     },
     {
@@ -34918,6 +35890,19 @@
     },
     {
         "version": 1,
+        "id": "react-native-track-player",
+        "label": "React-Native Track-Player",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/doublesymmetry\/trackplayer"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/doublesymmetry\/react-native-track-player",
+        "description": "a fully-fledged audio module created for music apps. Provides audio playback, external media controls, background mode and more.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "react-native-twitter-signin",
         "label": "React Native Twitter Signin",
         "type": "Utility",
@@ -35063,6 +36048,19 @@
         "last_update": 1659674016242,
         "website": "https:\/\/github.com\/pwittchen\/ReactiveSensors",
         "description": "library monitoring hardware sensors with RxJava.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "reactnative:-native-tooltips",
+        "label": "ReactNative: Native Tooltips",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/px\/tooltips"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/prscX\/react-native-tooltips",
+        "description": "a React Native bridge around native tooltips. It allows you to create simple tip views.",
         "license": "Apache-2.0"
     },
     {
@@ -35826,6 +36824,18 @@
     },
     {
         "version": 1,
+        "id": "rikka-lifecycle",
+        "label": "Rikka Lifecycle",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/rikka\/lifecycle"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/RikkaApps\/RikkaX\/tree\/master\/lifecycle",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "rime-core",
         "label": "Rime Core",
         "type": "Development Aid",
@@ -35880,6 +36890,19 @@
         ],
         "exodus_id": 377,
         "etip_id": "901597f7-ea1c-467b-bb9f-a1a7e9fc6741"
+    },
+    {
+        "version": 1,
+        "id": "rn-share-extension",
+        "label": "RN Share Extension",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/chat\/rocket\/rnshareextension"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/RocketChat\/rn-extensions-share",
+        "description": "a helper module which brings react native as an engine to drive share extension for your app.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -36653,6 +37676,19 @@
     },
     {
         "version": 1,
+        "id": "samsung-experience-support-library",
+        "label": "Samsung Experience Support Library",
+        "type": "Development Framework",
+        "signatures": {
+            "code": "\/androidx\/apppickerview|\/androidx\/indexscroll|\/androidx\/picker|\/androidx\/picker3|\/androidx\/reflect"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/OneUIProject\/oneui-core",
+        "description": "making Samsung UX elements available to everyone for study, modding or whatever feels right for you.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "samsung-look-sdk",
         "label": "Samsung Look SDK",
         "type": "UI Component",
@@ -36922,6 +37958,19 @@
     },
     {
         "version": 1,
+        "id": "sceneform-maintained-sdk-for-android",
+        "label": "Sceneform Maintained SDK for Android",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/google\/ar\/sceneform"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/SceneView\/sceneform-android",
+        "description": "an ARCore Android SDK with Google Filament as 3D engine.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "schibsted",
         "label": "Schibsted",
         "type": "Mobile Analytics",
@@ -37090,6 +38139,19 @@
         "website": "https:\/\/github.com\/damonkohler\/sl4a",
         "description": "brings scripting languages to Android by allowing you to edit and execute scripts and interactive interpreters directly on the Android device.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "scrollhmspicker",
+        "label": "ScrollHmsPicker",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/io\/github\/deweyreed\/scrollhmspicker"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DeweyReed\/ScrollHmsPicker",
+        "description": "a simple scrollable HMS time picker view for Android.",
+        "license": "MIT"
     },
     {
         "version": 1,
@@ -37283,6 +38345,19 @@
     },
     {
         "version": 1,
+        "id": "semver4j",
+        "label": "Semver4j",
+        "type": "Development Aid",
+        "signatures": {
+            "code": "\/com\/vdurmont\/semver4j"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/vdurmont\/semver4j",
+        "description": "a lightweight Java library that helps you handling versions.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "send-intent",
         "label": "Send-Intent",
         "type": "Utility",
@@ -37461,6 +38536,19 @@
         "anti_features": [
             "Tracking"
         ]
+    },
+    {
+        "version": 1,
+        "id": "sequence-layout",
+        "label": "sequence-layout",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/transferwise\/sequencelayout"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/transferwise\/sequence-layout",
+        "description": "a vertical sequence UI component for Android. Animates a progress bar to the first active step in the sequence and then periodically runs a pulse animation on that step.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -37844,6 +38932,19 @@
         ],
         "exodus_id": 81,
         "etip_id": "de7e5d69-a119-4012-864e-5c9221de8f01"
+    },
+    {
+        "version": 1,
+        "id": "shortbread",
+        "label": "Shortbread",
+        "type": "Development Aid",
+        "signatures": {
+            "code": "\/shortbread"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/MatthiasRobbers\/shortbread",
+        "description": "library that creates app shortcuts from annotations",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -38463,6 +39564,19 @@
     },
     {
         "version": 1,
+        "id": "skytube-components",
+        "label": "SkyTube Components",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/github\/skytube\/components"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/SkyTubeTeam\/components",
+        "description": "components for the SkyTube app.",
+        "license": "GPL-3.0-only"
+    },
+    {
+        "version": 1,
         "id": "slf4j-android",
         "label": "slf4j-android",
         "type": "Utility",
@@ -38850,6 +39964,19 @@
         "last_update": 1659674016248,
         "website": "https:\/\/bitbucket.org\/asomov\/snakeyaml",
         "description": "a <a href='https:\/\/en.wikipedia.org\/wiki\/YAML' target='_blank'>YAML<\/a> processor for the Java Virtual Machine.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "snakeyaml-engine",
+        "label": "SnakeYAML Engine",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/org\/snakeyaml\/engine"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/bitbucket.org\/asomov\/snakeyaml",
+        "description": "a YAML 1.2 processor for the Java Virtual Machine version 8 and higher.",
         "license": "Apache-2.0"
     },
     {
@@ -39640,6 +40767,32 @@
         "website": "https:\/\/github.com\/androidmads\/SQLite2XL",
         "description": "a light-weight library to convert SQLite Database to Excel and convert Excel to SQLite.",
         "license": "MIT"
+    },
+    {
+        "version": 1,
+        "id": "square-cycler",
+        "label": "Square Cycler",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/squareup\/cycler"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/square\/cycler",
+        "description": "allows you to easily configure an Android RecyclerView declaratively in a succinct way.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "square-logcat",
+        "label": "Square Logcat",
+        "type": "Development Aid",
+        "signatures": {
+            "code": "\/com\/squareup\/logcat"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/square\/logcat",
+        "description": "a tiny Kotlin API for cheap logging on top of Android's normal Log class.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -40581,6 +41734,19 @@
     },
     {
         "version": 1,
+        "id": "swiperefreshlayout",
+        "label": "Swiperefreshlayout",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/androidx\/swiperefreshlayout"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/developer.android.com\/jetpack\/androidx\/releases\/swiperefreshlayout",
+        "description": "implemtation of the swipe-to-refresh UI pattern.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "swipereveallayout",
         "label": "SwipeRevealLayout",
         "type": "UI Component",
@@ -40627,10 +41793,10 @@
             "code": "\/com\/orangegangsters\/github\/swipyrefreshlayout|\/com\/omadahealth\/github\/swipyrefreshlayout"
         },
         "last_update": 1659674016244,
-        "dead_since": 1492452000000,
         "website": "https:\/\/github.com\/omadahealth\/SwipyRefreshLayout",
         "description": "a SwipeRefreshLayout extension that allows to swipe in both direction.",
         "license": "MIT",
+        "dead_since": 1492452000000,
         "verified": true
     },
     {
@@ -42070,6 +43236,19 @@
     },
     {
         "version": 1,
+        "id": "theme",
+        "label": "Theme",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/xyz\/aprildown\/theme"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DeweyReed\/Theme",
+        "description": "an Experimental Theme Engine for Android.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "themedtogglebuttongroup",
         "label": "ThemedToggleButtonGroup",
         "type": "UI Component",
@@ -43370,6 +44549,32 @@
     },
     {
         "version": 1,
+        "id": "ui-canvas",
+        "label": "UI Canvas",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/com\/akylas\/canvas"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/nativescript-community\/ui-canvas",
+        "description": "implement Canvas into your NativeScript apps.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "ultimateringtonepicker",
+        "label": "UltimateRingtonePicker",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/xyz\/aprildown\/ultimateringtonepicker"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/DeweyReed\/UltimateRingtonePicker",
+        "description": "an Android music picker library for picking alarm, notification or ringtones sound using an Activity or a dialog.",
+        "license": "MIT"
+    },
+    {
+        "version": 1,
         "id": "ultimedia",
         "label": "Ultimedia",
         "type": "Mobile Analytics",
@@ -44242,6 +45447,32 @@
         ],
         "exodus_id": 320,
         "etip_id": "595723d4-b1df-4606-a818-430d90be72b0"
+    },
+    {
+        "version": 1,
+        "id": "version-compare",
+        "label": "Version Compare",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/io\/github\/g00fy2\/versioncompare"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/G00fY2\/version-compare",
+        "description": "lightweight library for Android, Java and Kotlin to compare version strings.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "vertical-stepper-form-library",
+        "label": "Vertical Stepper Form Library",
+        "type": "UI Component",
+        "signatures": {
+            "code": "\/ernestoyaquello\/com\/verticalstepperform"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/ernestoyaquello\/VerticalStepperForm",
+        "description": "a library that implements a highly customizable vertical stepper form.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -45334,6 +46565,19 @@
     },
     {
         "version": 1,
+        "id": "workflow",
+        "label": "Workflow",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/squareup\/workflow1"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/square\/workflow",
+        "description": "an application framework that provides architectural primitives.",
+        "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
         "id": "workmanager",
         "label": "WorkManager",
         "type": "Utility",
@@ -45683,6 +46927,19 @@
         "last_update": 1659674016246,
         "website": "https:\/\/github.com\/horizontalsystems\/xrates-kit-android",
         "description": "Exchange rates"
+    },
+    {
+        "version": 1,
+        "id": "xxpermissions",
+        "label": "XXPermissions",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/hjq\/permissions"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/getActivity\/XXPermissions",
+        "description": "Android permission request framework adapted to Android 13.",
+        "license": "Apache-2.0"
     },
     {
         "version": 1,
@@ -46274,6 +47531,19 @@
         "website": "https:\/\/github.com\/zeroturnaround\/zt-zip",
         "description": "library to process even large sets of large ZIP archives.",
         "license": "Apache-2.0"
+    },
+    {
+        "version": 1,
+        "id": "zip-file-system-standalone",
+        "label": "ZIP File System Standalone",
+        "type": "Utility",
+        "signatures": {
+            "code": "\/com\/github\/marschall\/com\/sun\/nio\/zipfs"
+        },
+        "last_update": 1667465622563,
+        "website": "https:\/\/github.com\/marschall\/zipfilesystem-standalone",
+        "description": "a standalone version of the zip file system provider in JDK7.",
+        "license": "BSD-3-Clause"
     },
     {
         "version": 1,
