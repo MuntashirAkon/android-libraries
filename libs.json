@@ -9520,7 +9520,7 @@
         "signatures": {
             "code": "/com/tencent/bugly/",
             "network": "bugly\\.qq\\.com",
-            "solib": "libBugly(-rqd)?\\.so"
+            "solib": "libBugly(-rqd|-ext)?\\.so"
         },
         "last_update": 1659674016237,
         "website": "https://bugly.qq.com/v2/",
@@ -42938,7 +42938,7 @@
         "label": "Tencent TPNS",
         "type": "Mobile Analytics",
         "signatures": {
-            "solib": "libxgVipSecurity\\.so"
+            "solib": "libxgVipSecurity\\.so|libtpnsSecurity\\.so|libxguardian\\.so"
         },
         "last_update": 1659674016239,
         "website": "https://cloud.tencent.com/product/tpns",
