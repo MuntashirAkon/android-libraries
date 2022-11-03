@@ -6472,7 +6472,7 @@
         "label": "Appnext",
         "type": "Mobile Analytics",
         "signatures": {
-            "code": "/com/appnext/",
+            "code": "/com/appnext/sdk",
             "network": "appnext.com"
         },
         "last_update": 1659674016237,
@@ -9523,11 +9523,10 @@
             "solib": "libBugly(-rqd|-ext)?\\.so"
         },
         "last_update": 1659674016237,
-        "website": "https://bugly.qq.com/v2/",
-        "description": "Bugly is a software manufacturing company specializing in detecting and tracking bug issues\r\nhttps://www.crunchbase.com/organization/bugly",
+        "website": "https://bugly.qq.com/",
+        "description": "Tencent Bugly provides professional exception reporting and operation statistics for mobile developers, helping developers to quickly find and solve exceptions, and at the same time grasp the dynamics of product operations, and follow up user feedback in a timely manner.",
         "anti_features": [
-            "Tracking",
-            "NonFreeNet"
+            "Tracking"
         ],
         "exodus_id": 190,
         "etip_id": "93fdd3a9-533e-41f1-a205-e28f0dd6fb28"
@@ -12795,7 +12794,7 @@
         "label": "Critic",
         "type": "Mobile Analytics",
         "signatures": {
-            "code": "/io/inventiv/critic/"
+            "code": "/io/inventiv/critic/android"
         },
         "last_update": 1659674016238,
         "website": "https://github.com/inventivtools/inventiv-critic-android",
@@ -16734,7 +16733,7 @@
         "type": "Mobile Analytics",
         "signatures": {
             "code": "/com/google/firebase/analytics/|/com/google/android/gms/measurement/|/com/google/firebase/firebase_analytics",
-            "network": "firebase\\.com"
+            "network": "firebase\\.com|firebaselogging-pa\\.googleapis\\.com"
         },
         "last_update": 1659674016236,
         "website": "https://firebase.google.com/",
@@ -18965,7 +18964,7 @@
         "type": "Advertisement",
         "signatures": {
             "code": "/com/google/ads/|/com/google/android/gms/ads/AdView|/com/google/android/gms/ads/AdActivity|/com/google/android/gms/ads/AdRequest|/com/google/android/gms/ads/mediation|/com/google/android/gms/ads/doubleclick|/com/google/android/ads/|/com/google/unity/ads/|/com/google/android/gms/admob|/com/google/firebase/firebase_ads/",
-            "network": "2mdn\\.net|\\.google\\.com|dmtry\\.com|doubleclick\\.com|doubleclick\\.net|mng-ads\\.com"
+            "network": "2mdn\\.net|dmtry\\.com|doubleclick\\.com|doubleclick\\.net|mng-ads\\.com|mobileads\\.google\\.com|ads\\.google\\.com|googlesyndication\\.com|googleadservices\\.com|googleads\\.g\\.doubleclick\\.net|adservice\\.google.*|adservice\\.g\\.cn"
         },
         "last_update": 1659674016237,
         "website": "https://admob.google.com",
@@ -19583,7 +19582,7 @@
         "type": "Mobile Analytics",
         "signatures": {
             "code": "/com/google/tagmanager|/com/google/android/gms/tagmanager",
-            "network": "www\\.googletagmanager\\.com|www\\.googletagservices\\.com"
+            "network": "www\\.googletagmanager\\.com|www\\.googletagservices\\.com|www-googletagmanager\\.l\\.google\\.com"
         },
         "last_update": 1659674016236,
         "website": "https://www.google.com/analytics/tag-manager/",
@@ -20260,10 +20259,10 @@
         "label": "HeyTap",
         "type": "Mobile Analytics",
         "signatures": {
-            "code": "/com/heytap/nearx/track"
+            "code": "/com/heytap/nearx/track|/com/heytap/msp/"
         },
         "last_update": 1659674016238,
-        "website": "https://www.heytap.com/",
+        "website": "https://brand.heytap.com/en/index.html",
         "anti_features": [
             "Tracking",
             "NonFreeNet"
@@ -24476,7 +24475,7 @@
         "label": "Kevel (formerly Adzerk)",
         "type": "Advertisement",
         "signatures": {
-            "code": "/com/adzerk/android/sdk",
+            "code": "/com/adzerk",
             "network": "adzerk\\.com|adzerk\\.net|engine\\.adzerk\\.net|static\\.adzerk\\.net"
         },
         "last_update": 1659674016238,
@@ -31706,7 +31705,7 @@
         "type": "Mobile Analytics",
         "signatures": {
             "code": "/com/optimizely/",
-            "network": "optimizely\\.com"
+            "network": "optimizely\\.com|optimizelyapis\\.com"
         },
         "last_update": 1659674016237,
         "website": "https://www.optimizely.com/",
@@ -42207,7 +42206,7 @@
         "label": "Tappx",
         "type": "Advertisement",
         "signatures": {
-            "code": "/com/tappx/sdk/"
+            "code": "/com/tappx/sdk/android"
         },
         "last_update": 1659674016238,
         "website": "https://www.tappx.com/",
@@ -44312,11 +44311,12 @@
         "label": "Tutucloud",
         "type": "Mobile Analytics",
         "signatures": {
-            "code": "/org/lasque/tusdk",
+            "code": "/org/lasque/tusdk/core|/org/lasque/tusdkpulse/core",
             "network": "tusdk\\.com"
         },
         "last_update": 1659674016239,
         "website": "https://tutucloud.com",
+        "description": "Advertises for facial recognition and picture editing",
         "anti_features": [
             "Tracking",
             "NonFreeNet"
@@ -45041,7 +45041,7 @@
         "type": "Mobile Analytics",
         "signatures": {
             "code": "/com/urbanairship",
-            "network": "device-api\\.urbanairship\\.com|urbanairship\\.com"
+            "network": "device-api\\.urbanairship\\.com|urbanairship\\.com|device-api\\.asnapieu\\.com"
         },
         "last_update": 1659674016236,
         "website": "https://github.com/urbanairship/android-library",
